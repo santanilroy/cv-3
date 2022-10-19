@@ -1,0 +1,154 @@
+body {
+    font-family: montserrat;
+
+}
+
+.navbar {
+    padding-bottom: 7.5rem;
+}
+
+.nav-item {
+    padding: 0px 18px;
+
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.phone {
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 30%;
+}
+
+
+h1 {
+    font-family: montserrat-black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+h3 {
+
+    font-weight: bold;
+}
+
+h2 {
+    font-family: montserrat-bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef872e;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #dd094c;
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef872e;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef872e;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-columns {
+    padding: 3% 2%;
+}
+
+.card-header {
+    background-color: #ef872e;
+}
+
+@media (max-width: 995px) {
+    .phone {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: white;
+    text-align: center;
+}
+
+.cta-paragraph {
+    font-family: montserrat-black;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.my-icon {
+    margin: 20px 10px;
+}
